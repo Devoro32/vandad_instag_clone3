@@ -52,6 +52,7 @@ dependencies:
   video_thumbnail: ^0.5.3
   lottie: ^2.6.0
   share_plus: ^6.0.1
+  url_launcher: ^6.1.14
 
 dev_dependencies:
   flutter_test:
