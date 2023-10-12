@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "967798899265",
+    "project_id": "eb-vandad-instagram-clone",
+    "storage_bucket": "eb-vandad-instagram-clone.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:967798899265:android:1e1772cb7ec7e6dc93bcc0",
+        "android_client_info": {
+          "package_name": "com.example.vandad_insta_gram"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCP3oMu4j3-KyCM_mpJuDzQ4WpFNjwST3w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:967798899265:android:bb6c0fff9dbff1bd93bcc0",
+        "android_client_info": {
+          "package_name": "com.example.vandad_insta_gram3"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCP3oMu4j3-KyCM_mpJuDzQ4WpFNjwST3w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
