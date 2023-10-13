@@ -34,7 +34,7 @@ class _SignInScreenState extends State<SignInScreen> {
                 20, MediaQuery.of(context).size.height * .2, 20, 0),
             child: Column(
               children: <Widget>[
-                //  logoWidget('assets/images/logo2.png'),
+                logoWidget('assets/images/logo2.png'),
                 const SizedBox(height: 30),
                 reusableTextField(
                   'Enter Username',
@@ -49,7 +49,19 @@ class _SignInScreenState extends State<SignInScreen> {
                 signInSingUpButton(
                   context,
                   true,
-                  () {},
+                  () {
+                    FirebaseAuth.instance
+                        .signInWithEmailAndPassword(
+                      email: _emailTextController.text,
+                      password: _passwordTextController.text,
+                    )
+                        .then((value) {
+                      Navigator.pushReplacement(
+                          context,
+                          MaterialPageRoute(
+                              builder: (context) => HomeScreen()));
+                    });
+                  },
                 ),
                 signUpOption(context, 'Dont have an account?', 'Sign Up',
                     SignUpScreen()),

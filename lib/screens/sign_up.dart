@@ -48,7 +48,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                   20, MediaQuery.of(context).size.height * .2, 20, 0),
               child: Column(
                 children: <Widget>[
-                  //logoWidget('assets/images/logo2.png'),
+                  logoWidget('assets/images/logo2.png'),
                   reusableTextField('Enter UserName', Icons.person_outline,
                       false, userNameTextController),
                   const SizedBox(
