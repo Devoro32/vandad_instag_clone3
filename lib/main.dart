@@ -5,7 +5,7 @@ void main() async {
   await Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform,
   );
-  runApp(const MyApp());
+  runApp(const ProviderScope(child: MyApp()));
 }
 
 class MyApp extends StatelessWidget {
@@ -28,7 +28,7 @@ class MyApp extends StatelessWidget {
         brightness: Brightness.dark,
         indicatorColor: Colors.blueGrey,
       ),
-      home: SignInScreen(),
+      home: XSignInScreen(),
     );
   }
 }
